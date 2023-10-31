@@ -24,7 +24,6 @@ function CRUDExample() {
     [items]
   );
 
-  // Delete: Remove an item from the list
   const deleteItem = useCallback(
     (index) => {
       const updatedItems = items.filter((_, i) => i !== index);
